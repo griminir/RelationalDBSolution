@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServerUI", "SQLServerUI\SQLServerUI.csproj", "{09238DE6-9115-4A28-AE4E-61323E463716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerUI", "SQLServerUI\SQLServerUI.csproj", "{09238DE6-9115-4A28-AE4E-61323E463716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{45C2ACE0-190B-4E31-8862-BE9359D0D63C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{45C2ACE0-190B-4E31-8862-BE9359D0D63C}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLContactsDB", "SQLContactsDB\SQLContactsDB.sqlproj", "{37D2D88C-0648-4DA4-B327-9F1F751B5A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteUI", "SqliteUI\SqliteUI.csproj", "{55B33C5E-1EBD-4E87-BC9D-047CB5D0D14A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{37D2D88C-0648-4DA4-B327-9F1F751B5A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37D2D88C-0648-4DA4-B327-9F1F751B5A07}.Release|Any CPU.Build.0 = Release|Any CPU
 		{37D2D88C-0648-4DA4-B327-9F1F751B5A07}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{55B33C5E-1EBD-4E87-BC9D-047CB5D0D14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B33C5E-1EBD-4E87-BC9D-047CB5D0D14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B33C5E-1EBD-4E87-BC9D-047CB5D0D14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B33C5E-1EBD-4E87-BC9D-047CB5D0D14A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
